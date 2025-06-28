@@ -1,57 +1,48 @@
-# flower-classification
-A machine learning-based web app that predicts the species of an iris flower using petal and sepal measurements
+# 🌼 Iris Flower Classification – AI/ML Internship Project (Week 1)
 
-🙋‍♂️ Author
-M. Mohamed Anas
-AI/ML Intern @ NSP NEXUS
-📧 Email: [m.mohamedanas10.06@gmail.com]
+This project was completed as part of my **AI & ML Internship with NSP NEXUS**.  
+It involves building a machine learning model to classify **iris flower species** based on four key features:  
+**Sepal Length, Sepal Width, Petal Length, and Petal Width**.
 
+---
 
-# 🌼 Iris Flower Classification Web App
+## 🔍 One-Line Description
 
-This project is part of my AI & ML internship with **NSP NEXUS**. The goal is to classify **iris flower species** based on their petal and sepal dimensions using a machine learning model and provide an interactive way for users to test it.
+A machine learning model built in Python using Google Colab that predicts the species of an iris flower from its petal and sepal measurements.
 
 ---
 
 ## 📌 Project Overview
 
-The Iris dataset is a classic dataset for classification problems. This project:
-- Trains a machine learning model (K-Nearest Neighbors)
-- Predicts the flower species: `Setosa`, `Versicolor`, or `Virginica`
-- Allows users to test predictions by entering their own measurements
-- Is deployed as an interactive web application using **Streamlit**
+This notebook-based project uses the famous **Iris dataset** to demonstrate a basic classification task using supervised learning.  
+The model classifies flowers into three species:
+- **Setosa**
+- **Versicolor**
+- **Virginica**
 
 ---
 
-## 💡 Features
+## 🎯 Learning Objectives
 
-✅ Load and explore the Iris dataset  
-✅ Visualize data distributions and relationships  
-✅ Train a simple KNN model  
-✅ Evaluate accuracy and confusion matrix  
-✅ Let users input custom measurements and predict species  
-✅ Deploy as a Streamlit web app  
-
----
-
-## 🚀 Live Demo
-
-> 🔗 [Live App on Streamlit](https://your-username.streamlit.app)  
-*(Replace with your actual link after deployment)*
+- Understand basic classification using ML
+- Load and explore datasets using `pandas`
+- Visualize data using `seaborn` and `matplotlib`
+- Train a classification model using `KNeighborsClassifier`
+- Evaluate model performance using accuracy and confusion matrix
+- Allow users to **manually input their own flower measurements** and predict the species
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies Used
 
+- **Google Colab** (Notebook)
 - Python
-- Pandas, NumPy
-- Scikit-learn (KNeighborsClassifier)
-- Matplotlib, Seaborn
-- Streamlit (for web deployment)
+- Libraries:  
+  `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
 ---
 
-## 📊 Sample Inputs for Testing
+## 🧪 Sample User Inputs (for Testing Predictions)
 
 | Sepal Length | Sepal Width | Petal Length | Petal Width | Expected Species |
 |--------------|-------------|--------------|-------------|------------------|
@@ -61,13 +52,48 @@ The Iris dataset is a classic dataset for classification problems. This project:
 
 ---
 
-## 🖥️ How to Run Locally
+## ✅ Features Implemented
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/iris-streamlit-app.git
-   cd iris-streamlit-app
+- Load and display Iris dataset
+- Data exploration using visualizations (pair plots, count plots)
+- Data preprocessing and train/test split
+- K-Nearest Neighbors model training
+- Evaluation using classification report and confusion matrix
+- **Custom user input support** to predict flower species dynamically
 
-INSTALL REQUIRED LIBRARIES
-pip install -r requirements.txt
+---
+
+## 📎 How to Use This Notebook
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com/)
+2. Run each cell step by step
+3. In the **“User Input Section”**, provide:
+   - Sepal Length (e.g., 5.1)
+   - Sepal Width (e.g., 3.5)
+   - Petal Length (e.g., 1.4)
+   - Petal Width (e.g., 0.2)
+4. View the predicted species for the given inputs
+
+---
+
+## 📁 Files Included
+
+- `Iris_Classification.ipynb` — Main project notebook
+- `README.md` — This file (project summary)
+
+---
+
+## 🙋‍♂️ Author
+
+**M. Mohamed Anas**  
+AI/ML Intern – NSP NEXUS  
+📧 Email:m.mohamedanas10.06@gmail.com
+
+---
+
+## 🙌 Acknowledgements
+
+- [Scikit-learn Iris Dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html)
+- [NSP NEXUS Internship Team](https://nspnexus.com)
+- Mentors and community support
 
